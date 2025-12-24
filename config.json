@@ -1,0 +1,13 @@
+{
+  "target": "log_ret",
+  "max_encoder_len": 60,
+  "max_pred_len": 5,
+  "min_history_rows": 450
+  "trained_universe": [
+    {"ticker": "NVDA", "name": "NVIDIA"},
+    {"ticker": "MSFT", "name": "Microsoft"},
+    {"ticker": "GOOG", "name": "Alphabet"},
+    {"ticker": "AAPL", "name": "Apple"}
+    // ... all 39 entries
+  ]
+}
