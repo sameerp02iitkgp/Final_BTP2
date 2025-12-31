@@ -1157,7 +1157,7 @@ with tab4:
         with c_left:
             st.markdown(f"### Project Report ({file_size_mb:.1f} MB)")
             # Simpler, punchier text
-            st.write("To keep the app snappy, the report viewer loads on demand. Please allow a brief moment for the application to render the document, or download it directly.")
+            st.write("You can download report directly or view it here (it may take a while to render the document).")
         
         with c_right:
             st.write("") # Spacer
