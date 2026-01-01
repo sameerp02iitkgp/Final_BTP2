@@ -1019,7 +1019,7 @@ with tab1:
             
             allow_custom = False
         else:
-            ticker = st.text_input("Enter Custom Ticker", placeholder="Search for any ticker (e.g., RKLB,RGTI,IREN,etc)", label_visibility="collapsed").strip().upper()
+            ticker = st.text_input("Enter Custom Ticker", placeholder="Search for any ticker (e.g., RKLB,RGTI,IREN,BBAI,CEG,etc)", label_visibility="collapsed").strip().upper()
             allow_custom = True
             if ticker:
                 st.info(f"ℹ️ **{ticker}** is not in the trained set. I'll allow if it has enough history, but reliability may drop.")
