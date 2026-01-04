@@ -1087,9 +1087,9 @@ with tab2:
             (
                 "Evaluated on a held-out test split across <b>39 trained tickers</b>.<br/><br/>"
                 "<b>Global test metrics (N = 39):</b><br/>"
-                "• <b>H = 1 day</b>: RMSE 7.1895 | MAE 4.9166 | <b>MAPE 1.951%</b> | <b>MAPE-Score 98.049%</b> | DirAcc 48.72% | Cov80 76.92%<br/>"
-                "• <b>H = 3 days</b>: RMSE 14.4184 | MAE 9.2617 | <b>MAPE 3.506%</b> | <b>MAPE-Score 96.494%</b> | DirAcc 74.36% | Cov80 92.31%<br/>"
-                "• <b>H = 5 days</b>: RMSE 10.4689 | MAE 7.2878 | <b>MAPE 3.069%</b> | <b>MAPE-Score 96.931%</b> | DirAcc 53.85% | Cov80 94.87%"
+                "• <b>H = 1 day</b>: RMSE 0.0547 | MAE 0.0264 | <b>MAPE 1.68%</b> | <b>MAPE-Score 98.32%</b> | DirAcc 59.47% | Cov80 77.38%<br/>"
+                "• <b>H = 3 days</b>: RMSE 0.0920 | MAE 0.0466 | <b>MAPE 2.95%</b> | <b>MAPE-Score 97.05%</b> | DirAcc 62.81% | Cov80 92.94%<br/>"
+                "• <b>H = 5 days</b>: RMSE 0.1178 | MAE 0.0606 | <b>MAPE 3.82%</b> | <b>MAPE-Score 96.18%</b> | DirAcc 65.11% | Cov80 96.31%"
             ),
         ),
         ("What do q10 / q50 / q90 mean?", "q50: the median forecast (most typical outcome)<br/>q10: conservative scenario (10% quantile)<br/>q90: optimistic scenario (90% quantile)<br/><br/>The q10–q90 band represents roughly 80% uncertainty."),
