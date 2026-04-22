@@ -510,11 +510,8 @@ def download_ohlcv(ticker: str, start: str, cache_buster: int = 0) -> Tuple[pd.D
 
             if "date" in raw.columns:
                 def pick(name: str) -> Optional[str]:
-                    if name in raw.columns:
-                        return name
                     for c in raw.columns:
-                        if c.endswith("_" + name) or c == name:
-                            return c
+                        if c == name or c.startswith(f"{name}_") or c.endswith(f"_{name}"): return c
                     return None
 
                 close_c = pick("close")
